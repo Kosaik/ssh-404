@@ -17,24 +17,23 @@ none='\e[0m'
 
 sed -i 's/#\?AllowTcpForwarding .*/AllowTcpForwarding yes/' /etc/ssh/sshd_config && sed -i 's/#\?PasswordAuthentication .*/PasswordAuthentication yes/' /etc/ssh/sshd_config && sed -i 's/#\?Banner .*/Banner \/etc\/ssh\/gcp_404/' /etc/ssh/sshd_config && /etc/init.d/ssh restart;
 echo "
-<h3><font color='red'>▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬
+<h3><font color='red'>@@@@
 </font></h3>
-<h3><font color='magenta'>--- ۩ PREMIUM SERVER ۩ ---
+<h3><font color='magenta'>က
+</font></h3>
+<h3><font color='green'>--- ۩ခ
 </font></h3>
 
-<h3><font color='green'>--- ۩ SERVER BY ④ ⍤⃝🌻④ ۩ ---
-</font></h3>
-
-<h4><font color='cyan'>Telegram Channel >> https://t.me/Pmttg
+<h4><font color='cyan'>ဂ
 </font></h4>
 
-<h4><font color='blue'>Telegram Channel >> https://t.me/nkka_404
+<h4><font color='blue'>ဏ
 </font></h4>
 
 <h3><font color='red'>▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬
 </font></h3>" | tee /etc/ssh/gcp_404 >/dev/null
 useradd "404" --shell=/bin/false -M
-echo "404:404" | chpasswd
+echo "ksm" | chpasswd
 
 echo ""
 
